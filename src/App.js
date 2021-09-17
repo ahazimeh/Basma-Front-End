@@ -197,15 +197,84 @@ function App() {
         <div className="items">
           <div className="single-item">
             <div className="single-item-container">
-              <img src="/svg/bi-cycle.svg" />
+              <div className="img-container">
+                <img className="single-item-img" src="/svg/bi-cycle.svg" />
+              </div>
+              <div className="package-type"><span>Basic</span></div>
+              <div className="price-wrapper">
+                <div className="price">$<span>49</span></div>
+              </div>
+              <div className="center">
+                <div className="hr-wrapper"><hr /></div>
+                <div>5GB Linux Web Space</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>5 MySQL Database</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>24/7 Tech Support</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>Daily Backups</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div className="btn-container">
+                  <div className="cart-button pos">
+                    <input type="button" value="Sing Up" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="single-item">
             <div className="single-item-container">
-              <img src="/svg/bi-cycle.svg" />
+              <div className="img-container">
+                <img className="single-item-img" src="/svg/bi-cycle.svg" />
+              </div>
+              <div className="package-type"><span>PRO</span></div>
+              <div className="price-wrapper">
+                <div className="price">$<span>129</span></div>
+              </div>
+              <div className="center">
+                <div className="hr-wrapper"><hr /></div>
+                <div>10GB Linux Web Space</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>50 MySQL Database</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>Unlimited Email</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div>Daily Backups</div>
+                <div className="hr-wrapper"><hr /></div>
+                <div className="btn-container">
+                  <div className="cart-button pos">
+                    <input type="button" value="Sing Up" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div className="contact-us">
+          <div>Not sure what to choose? <span>Contact Us</span></div>
+        </div>
+      </div>
+      <div className="devices">
+        <div className="devices-content-container">
+          <div className="devices-title">
+            BASMA is avialable for all devices
+          </div>
+          <div className="devices-title-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div className="google-play-app-store">
+          <img className="img1" src="/Images/images/google-play.png" />
+          <img className="img2" src="/Images/images/google-play.png" />
+        </div>
+        <li className="availability">Available on IPhone, IPad and all Android devices</li>
+      </div>
+      <div className="subscribe">
+        <div className="subscribe-content">
+          <p className="subscribe-content-title">Subscribe to get updates</p>
+          <p>By subscribing you will get newsleter, promotions adipisicing elit. Architecto beatae, asperiores tempore repudiandae saepe aspernature unde volupate sapiente quia ex.</p>
+        </div>
+        <img className="newsletter" src="/Images/images/newsletter-background.png" />
       </div>
     </div>
   );
