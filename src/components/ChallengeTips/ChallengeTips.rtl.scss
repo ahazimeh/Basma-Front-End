@@ -1,9 +1,7 @@
-.ltr{
-
-
+.rtl{
 .challenge-tips{
     margin: 0px 50px;
-    background: linear-gradient(to right, blue,purple);
+    background: linear-gradient(to left, blue,purple);
     .challenge-tips-header{
       padding-top: 50px;
       .challenge-tips-title{
@@ -28,8 +26,8 @@
     .challenge-tips-body-wrapper{
       padding: 0 200px 50px 200px;
       @media only screen and (max-width: 921px) {
-          padding-left: unset !important;
           padding-right: unset !important;
+          padding-left: unset !important;
       }
       .challenge-tips-body{
         display: flex;
@@ -53,7 +51,7 @@
             display: flex;
             .arrow{
               width: 60px;
-              margin-left: 40px;
+              margin-right: 40px;
               margin-top: 60px;
               @media only screen and (max-width: 921px) {
                   display: none;
@@ -68,4 +66,3 @@
     }
   }
 }
-@import "./ChallengeTips.rtl.scss";

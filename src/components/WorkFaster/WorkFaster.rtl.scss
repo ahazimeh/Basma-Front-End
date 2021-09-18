@@ -1,4 +1,4 @@
-.ltr{
+.rtl{
 .work-faster-wrapper{
     padding: 0 50px;
     .work-faster{
@@ -6,7 +6,7 @@
       padding:100px 100px;
       background-color: rgb(210, 223, 226);
       @media only screen and (max-width: 921px) {
-          padding-left: unset;
+          padding-right: unset;
           flex-direction: column;
           img{
               width: 200px;
@@ -22,9 +22,9 @@
       img{
       }
       .work-faster-content{
-        margin-left: 200px;
+        margin-right: 200px;
         @media only screen and (max-width: 921px) {
-        margin-left: 50px !important;
+        margin-right: 50px !important;
         }
         .work-faster-title{
           font-size: 40px;
@@ -53,4 +53,3 @@
     }
   }
 }
-@import "./WorkFaster.rtl.scss";

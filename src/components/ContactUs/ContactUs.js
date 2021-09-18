@@ -26,13 +26,13 @@ function ContactUs() {
                                 </div>
                             </div>
                             <div className="info-container">
-                                <img className="contact-details-icon" src="/Images/images/form-house.svg" />
+                                <img className="contact-details-icon" src="/Images/images/form-phone.svg" />
                                 <div>
                                     +1230 456 789-012 345 6789
                                 </div>
                             </div>
                             <div className="info-container">
-                                <img className="contact-details-icon" src="/Images/images/form-house.svg" />
+                                <img className="contact-details-icon" src="/Images/images/form-mail.svg" />
                                 <div>
                                     exampledomain@domain.com
                                 </div>

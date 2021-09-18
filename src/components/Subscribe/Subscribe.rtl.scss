@@ -1,4 +1,4 @@
-.ltr{
+.rtl{
 .subscribe{
     display: flex;
     justify-content: center;
@@ -32,11 +32,10 @@
         width: 100%;
         border: none;
         border-radius: 5px;
-        background: linear-gradient(to right, blue,purple);
+        background: linear-gradient(to left, blue,purple);
         cursor: pointer;
         color: white;
       }
     }
   }
 }
-@import "./Subscribe.rtl.scss";

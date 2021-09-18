@@ -1,4 +1,4 @@
-.ltr{
+.rtl{
 .devices{
     background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("download-bg.jpeg");
     margin:0px 50px;
@@ -14,12 +14,12 @@
     padding:0px 0px 100px 0px;
     .devices-title{
         @media only screen and (max-width: 921px) {
-            padding-left: 50px;
             padding-right: 50px;
+            padding-left: 50px;
         }
         @media only screen and (max-width: 621px) {
-            padding-left: 150px;
             padding-right: 150px;
+            padding-left: 150px;
         }
       display: flex;
       justify-content: center;
@@ -31,12 +31,12 @@
     }
     .devices-title-content{
         @media only screen and (max-width: 921px) {
-            padding-left: 50px;
             padding-right: 50px;
+            padding-left: 50px;
         }
         @media only screen and (max-width: 621px) {
-            padding-left: 150px;
             padding-right: 150px;
+            padding-left: 150px;
         }
     }
     .devices-content-container{
@@ -52,10 +52,10 @@
         width: 160px;
       }
       .img1{
-        margin-right: 10px;
+        margin-left: 10px;
       }
       .img2{
-        margin-left: 10px;
+        margin-right: 10px;
       }
     }
     .availability{
@@ -65,4 +65,3 @@
     }
   }
 }
-@import "./Devices.rtl.scss";
