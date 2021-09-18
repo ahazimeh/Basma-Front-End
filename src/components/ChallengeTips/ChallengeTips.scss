@@ -1,0 +1,66 @@
+.challenge-tips{
+    margin: 0px 50px;
+    background: linear-gradient(to right, blue,purple);
+    .challenge-tips-header{
+      padding-top: 50px;
+      .challenge-tips-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+      }
+      .challenge-tips-sub-title{
+        font-weight: bold;
+        color: white;
+        justify-content: center;
+        display: flex;
+        padding: 0 200px;
+        @media only screen and (max-width: 921px) {
+            padding:unset !important;
+        }
+      }
+    }
+    .challenge-tips-body-wrapper{
+      padding: 0 200px 50px 200px;
+      @media only screen and (max-width: 921px) {
+          padding-left: unset !important;
+          padding-right: unset !important;
+      }
+      .challenge-tips-body{
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 921px) {
+            flex-direction: column;
+        }
+        .challenge-tips-body-element{
+            p{
+                color: white;
+            }
+            @media only screen and (max-width: 921px) {
+                margin: auto;
+                padding:unset !important;
+            }
+          padding: 0 40px;
+          .flex{
+              p{
+                  color: white;
+              }
+            display: flex;
+            .arrow{
+              width: 60px;
+              margin-left: 40px;
+              margin-top: 60px;
+              @media only screen and (max-width: 921px) {
+                  display: none;
+              }
+            }
+          }
+          img{
+            width: 100px;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,40 @@
+.share-photos{
+    display: flex;
+    @media only screen and (max-width: 921px) {
+        flex-direction: column-reverse;
+    }
+    // justify-content: space-between;
+    padding: 100px 100px;
+    .share-photos-left-section{
+      width: 60%;
+      @media only screen and (max-width: 921px) {
+        width: 100% !important;
+      }
+    }
+    .share-photo-content{
+      width: 60%;
+      @media only screen and (max-width: 921px) {
+        width: 100% !important;
+      }
+      img{
+        width: 30px;
+      }
+    }
+    .button{
+      padding: 8px 20px;
+      border: none;
+      border-radius: 3px;
+      background: linear-gradient(to right, blue,purple);
+      cursor: pointer;
+    }
+    .share-title{
+      font-size: 36px;
+      width: 60%;
+      font-weight: bold;
+    }
+    .share-phone{
+      img{
+        width: 200px;
+      }
+    }
+  }
